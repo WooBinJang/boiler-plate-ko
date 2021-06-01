@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon inddx.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jangwoobin",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.12.12"
+    "body-parser": "^1.19.0", 
+    "express": "^4.17.1", 
+    "mongoose": "^5.12.12" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"  
   }
 }
